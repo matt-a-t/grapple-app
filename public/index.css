@@ -1,0 +1,91 @@
+body {
+  margin: 0px;
+  font-family: 'Titillium Web', sans-serif;
+  background-color: #F2EEE3;
+  color: #1D1309;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.header-button {
+  margin: 2% 0% 2% 0%;
+  width: 50%;
+  padding: 3% 0 3% 0;
+  background-color: #474C27;
+  border-left: 1px solid #F2EEE3;
+  border-right: 1px solid #F2EEE3;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  color: #F2EEE3;
+}
+
+.grapple {
+  height: 400px;
+  overflow-x: auto;
+  margin: 2% 0 2% 0;
+  border-top: 1px solid #785535;
+  border-bottom: 1px solid #785535;
+  padding-bottom: 60px;
+}
+
+p {
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+li {
+  margin: 3% 0 3% 0
+}
+
+button {
+  width: inherit;
+  background-color: #474C27;
+  color: #F2EEE3;
+  font: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 0;
+  width: 97%;
+}
+
+#menu {
+  z-index: 2;
+  position: absolute;
+  background-color: #1D1309;
+  color: #785535;
+  visibility: hidden;
+  transition: visibility 2s;
+}
+
+.hamburger {
+  width: 35px;
+  height: 5px;
+  background-color: #1D1309;
+  margin: 6px 0;
+}
+
+.bm-menu::-webkit-scollbar {
+  display: none;
+  width: 0px;
+}
+
+.bm-menu-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+/*
+#F2EEE3 - sky
+#474C27 - leaves
+#ECD5B7 - sand
+#1D1309 - dark bark
+#785535 - light bark
+*/
