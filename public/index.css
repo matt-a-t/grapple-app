@@ -22,7 +22,7 @@ h1 {
 }
 
 .grapple {
-  height: 400px;
+  min-height: 400px;
   overflow-x: auto;
   margin: 2% 0 2% 0;
   border-top: 1px solid #785535;
@@ -31,23 +31,36 @@ h1 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 ul {
   list-style-type: none;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 li {
   margin: 3% 0 3% 0
 }
 
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  background-color: #ECD5B7;
+  color: #785535;
+  text-align: center;
+}
+
+h6 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
 button {
   width: inherit;
   background-color: #474C27;
   color: #F2EEE3;
-  font: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
 }
 
@@ -57,28 +70,7 @@ button {
   width: 97%;
 }
 
-#menu {
-  z-index: 2;
-  position: absolute;
-  background-color: #1D1309;
-  color: #785535;
-  visibility: hidden;
-  transition: visibility 2s;
-}
-
-.hamburger {
-  width: 35px;
-  height: 5px;
-  background-color: #1D1309;
-  margin: 6px 0;
-}
-
-.bm-menu::-webkit-scollbar {
-  display: none;
-  width: 0px;
-}
-
-.bm-menu-wrapper::-webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
 }
 
