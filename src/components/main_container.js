@@ -54,14 +54,14 @@ class MainContainer extends Component {
           <div className="col text-center">
             <h1>Add a grapple</h1>
             <div className="row">
-              <div className="col header-button" 
+              <button className="col header-button" 
                 onClick={() => {this.addGrapple('attack')}}>
                 Attack
-              </div>
-              <div className="col header-button" 
+              </button>
+              <button className="col header-button" 
                 onClick={() => {this.addGrapple('defend')}}>
                 Defend
-              </div>
+              </button>
             </div>
           </div>
         </div>

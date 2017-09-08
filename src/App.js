@@ -24,11 +24,13 @@ class App extends Component {
         top: '10px'
       },
       bmBurgerBars: {
-        background: '#ECD5B7'
+        background: '#ECD5B7',
+        boxShadow: '0px 3px 3px black inset',
       },
       bmCrossButton: {
         height: '24px',
-        width: '24px'
+        width: '24px',
+        backgroundColor: '#B53F33'
       },
       bmCross: {
         background: '#ECD5B7'
@@ -53,7 +55,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <div style={{backgroundColor:'#474C27', height: '50px'}}>
+        <div style={{backgroundColor:'#474C27', height: '50px',boxShadow: '0 10px 10px black', marginBottom: '30px'}}>
           <Menu 
             styles={styles} 
             width={'80%'}  
